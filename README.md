@@ -21,7 +21,7 @@ Where:
 ##  O que está incluído (Português)
 1) Funções de validação cruzada: Scripts que implementam diferentes esquemas de validação cruzada (CV0, CV00, CV1 e CV2), comumente usados na seleção genômica.
 2) Instruções bilíngues: Script com orientações de uso em Português (pt-BR) e Inglês (ENG).
-3) Conjuntos de dados de exemplo: Dados fenotípicos, genômicos e ambientais disponíveis no repositório de apoio ( https://github.com/gcostaneto/KernelMethods.)
+3) Conjuntos de dados de exemplo: Dados fenotípicos, genômicos e ambientais disponíveis em https://github.com/gcostaneto/KernelMethods
 4) Código para modelagem: Scripts que utilizam o pacote sommer para análise de seleção genômica em múltiplos ambientes.
 
 **Especificação do modelo**: Os modelos seguem a estrutura:
