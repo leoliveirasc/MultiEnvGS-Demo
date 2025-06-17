@@ -12,7 +12,7 @@ This repository contains practical R scripts to demonstrate genomic selection mo
 
 Where:  
 - `y`: phenotype  
-- `u`: overall mean  
+- `u`: intercept  
 - `e`: environmental effect or environmental covariates effects  
 - `g`: genotypic or additive genomic effect  
 - `g×e`: genotype-by-environment interaction 
@@ -29,7 +29,7 @@ y = u + e + g + g×e
 
 Onde:
 - `y`: fenótipo
-- `u`: média geral
+- `u`: intercepto
 - `e`: efeito do ambiente ou efeitos de covariáveis ambientais
 - `g`: efeito genotípico ou efeito genômico aditivo
 - `g×e`: interação genótipo × ambiente
