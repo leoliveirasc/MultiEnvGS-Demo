@@ -4,7 +4,7 @@ This repository contains practical R scripts to demonstrate genomic selection mo
 ## What's Included (English)
 1) Cross-validation functions: Scripts implementing different cross-validation schemes (CV0, CV00, CV1, and CV2) commonly used in genomic selection.
 2) Bilingual instructions: A script with usage instructions in both Portuguese (GS_Demo_ptbr.R) and English (GS_Demo_eng.R).
-3) Example datasets: Phenotypic, genomic, and environmental data provided via https://github.com/gcostaneto/KernelMethods.
+3) Example datasets: Phenotypic (pheno_data.csv), genomic (Markers.Rda), and environmental data (W_matrix_USP_248) provided via https://github.com/gcostaneto/KernelMethods.
 4) Modeling code: Scripts using the sommer package to perform multi-environment genomic selection.
 
 **Model specification**: The models used follow the structure:  
@@ -20,8 +20,8 @@ Where:
 
 ##  O que está incluído (Português)
 1) Funções de validação cruzada: Scripts que implementam diferentes esquemas de validação cruzada (CV0, CV00, CV1 e CV2), comumente usados na seleção genômica.
-2) Instruções bilíngues: Script com orientações de uso em Português (pt-BR) e Inglês (ENG).
-3) Conjuntos de dados de exemplo: Dados fenotípicos, genômicos e ambientais disponíveis em https://github.com/gcostaneto/KernelMethods
+2) Instruções bilíngues: Script com orientações de uso em Português (GS_Demo_ptbr.R) e Inglês (GS_Demo_eng.R).
+3) Conjuntos de dados de exemplo: Dados fenotípicos (pheno_data.csv), genômicos (Markers.Rda) e ambientais (W_matrix_USP_248) disponíveis em https://github.com/gcostaneto/KernelMethods
 4) Código para modelagem: Scripts que utilizam o pacote sommer para análise de seleção genômica em múltiplos ambientes.
 
 **Especificação do modelo**: Os modelos seguem a estrutura:
