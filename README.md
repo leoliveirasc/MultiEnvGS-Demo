@@ -23,7 +23,7 @@ Where:
 3) Conjuntos de dados de exemplo: Dados fenotípicos (pheno_data.csv), genômicos (Markers.Rda) e ambientais (W_matrix_USP_248) disponíveis em https://github.com/gcostaneto/KernelMethods
 
 **Especificação do modelo**: Os modelos seguem a estrutura:
-y = u + e + g + g×e
+`y = u + e + g + g×e` 
 
 Onde:
 - `y`: fenótipo
