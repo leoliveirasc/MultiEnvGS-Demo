@@ -3,7 +3,7 @@ This repository contains practical R scripts to demonstrate genomic selection mo
 
 ## What's Included (English)
 1) Cross-validation functions: Scripts implementing different cross-validation schemes (CV0, CV00, CV1, and CV2) commonly used in genomic selection.
-2) Bilingual instructions: A script with usage instructions in both Portuguese (pt-BR) and English (ENG).
+2) Bilingual instructions: A script with usage instructions in both Portuguese (GS_Demo_ptbr.R) and English (GS_Demo_eng.R).
 3) Example datasets: Phenotypic, genomic, and environmental data provided via https://github.com/gcostaneto/KernelMethods.
 4) Modeling code: Scripts using the sommer package to perform multi-environment genomic selection.
 
