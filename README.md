@@ -32,7 +32,8 @@ Onde:
 - `g`: efeito genotípico ou efeito genômico aditivo
 - `g×e`: interação genótipo × ambiente
 
-
+## Pipeline
+![Esquema geral da análise](Scheme.png)
 
 ##  Suggested References / Referências Sugeridas
 - Jarquín, D., Crossa, J., Lacaze, X., Du Cheyron, P., Daucourt, J., Lorgeou, J., Piraux, F., Guerreiro, L., Pérez, P., Calus, M., Burgueño, J., de los Campos, G., 2014. A reaction norm model for genomic selection using high-dimensional genomic and environmental data. Theoretical and Applied Genetics 127, 595–607. https://doi.org/10.1007/s00122-013-2243-1
