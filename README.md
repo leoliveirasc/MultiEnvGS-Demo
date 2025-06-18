@@ -42,9 +42,9 @@ fold(fold.n, n)
 ##### fold.n: number of desired partitions (folds) for cross-validation. Should be ≥ 2.
 ##### n: total number of observations to be split into folds.
 
-# Helper function that returns a list of indices for cross-validation splits.
-# Each list element contains the indices of observations assigned to one fold.
-# Used to divide data into roughly equal-sized subsets.
+Helper function that returns a list of indices for cross-validation splits.
+Each list element contains the indices of observations assigned to one fold.
+Used to divide data into roughly equal-sized subsets.
 
 ### mmes.fold
 for single environments
