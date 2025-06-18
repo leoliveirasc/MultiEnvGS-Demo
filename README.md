@@ -33,7 +33,8 @@ Onde:
 - `g×e`: interação genótipo × ambiente
 
 ## Pipeline
-![Esquema geral da análise](Scheme.png)
+![Esquema geral da análise]
+<img src="Scheme.png" alt="Esquema geral da análise" width="500">
 
 ##  Suggested References / Referências Sugeridas
 - Jarquín, D., Crossa, J., Lacaze, X., Du Cheyron, P., Daucourt, J., Lorgeou, J., Piraux, F., Guerreiro, L., Pérez, P., Calus, M., Burgueño, J., de los Campos, G., 2014. A reaction norm model for genomic selection using high-dimensional genomic and environmental data. Theoretical and Applied Genetics 127, 595–607. https://doi.org/10.1007/s00122-013-2243-1
