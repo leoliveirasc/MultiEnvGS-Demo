@@ -60,8 +60,8 @@ Performs cross-validation on single-environment data. For each fold, the functio
 `mmesCV(dados, G = NULL, W = NULL, CV = NULL, fold.n = 5, looEnv = TRUE, covGE = FALSE)`
 
 - `dados`: phenotypic data frame containing 'gid' (genotype) and 'env' (environment) columns.  
-- `G`: genomic additive relationship matrix.  
-- `W`: environmental similarity matrix.  
+- `G`: genomic additive relationship matrix. If `NULL`, the identity matrix is used.  
+- `W`: environmental similarity matrix. If `NULL`, the identity matrix is used.  
 - `CV`: cross-validation scheme identifier (e.g., '0', '1', '2', '00').  
 - `fold.n`: number of folds (partitions) for CV. Default is 5.  
 - `looEnv`: for CV = '00' only; indicates whether leave-one-out cross-validation is applied specifically to environments, while genotypes are partitioned separately into folds defined by fold.n.  
