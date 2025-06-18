@@ -35,6 +35,29 @@ Onde:
 ## Pipeline
 <img src="Pipeline.png" alt="Esquema geral da análise" width="700">
 
+## Functions
+#' Randomly split observations into (approximately) equal folds
+#'
+#' @description
+#' Utility to generate indices for \(k\)-fold cross‑validation.  
+#' The function shuffles the integers \eqn{1:n} and returns a list whose
+#' elements are integer vectors with the positions assigned to each fold.
+#' Folds differ by at most one observation.
+#'
+#' @param fold.n Integer ≥ 2. Desired number of folds.
+#' @param n      Integer ≥ fold.n. Total number of observations to split.
+#'
+#' @return A list of length \code{fold.n}; each element is a vector of indices.
+#'
+#' @examples
+#' set.seed(42)
+#' folds <- fold(5, 103)
+#' lengths(folds)             # numbers per fold
+#' intersect(folds[[1]], folds[[2]])  # empty — no overlap
+#'
+#' @export
+fold <- function(fold.n, n) { ... }
+
 ##  Suggested References / Referências Sugeridas
 - Jarquín, D., Crossa, J., Lacaze, X., Du Cheyron, P., Daucourt, J., Lorgeou, J., Piraux, F., Guerreiro, L., Pérez, P., Calus, M., Burgueño, J., de los Campos, G., 2014. A reaction norm model for genomic selection using high-dimensional genomic and environmental data. Theoretical and Applied Genetics 127, 595–607. https://doi.org/10.1007/s00122-013-2243-1
 
