@@ -22,7 +22,7 @@ Where:
 2) Instruções bilíngues: Scripts com instruções de uso disponíveis em português (GS_Demo_ptbr.R) e inglês (GS_Demo_eng.R), incluindo código de modelagem que utiliza o pacote sommer para realizar seleção genômica multiambiente.
 3) Conjuntos de dados de exemplo: Dados fenotípicos (pheno_data.csv), genômicos (Markers.Rda) e ambientais (W_matrix_USP_248) disponíveis em https://github.com/gcostaneto/KernelMethods
 
-**Especificação do modelo**: Os modelos seguem a estrutura:
+**Especificação do modelo**: Os modelos seguem a estrutura:  
 `y = u + e + g + g×e`  
 
 Onde:
