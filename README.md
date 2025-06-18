@@ -56,17 +56,21 @@ Used to divide data into roughly equal-sized subsets.
 
 Performs cross-validation on single-environment data. For each fold, the function fits a mixed model with `mmes()`, masking phenotypes in the test fold. Returns predictive accuracy as the Pearson correlation between predicted and observed values in each fold.
 
-### mmesCV
-for multi-environments  
-mmesCV(dados, G = NULL, W = NULL, CV = NULL, fold.n = 5, looEnv = TRUE, covGE = FALSE)
+### mmesCV  
+`mmesCV(dados, G = NULL, W = NULL, CV = NULL, fold.n = 5, looEnv = TRUE, covGE = FALSE)`
 
-##### dados: phenotypic data containing 'gid' and 'env' columns  
-##### G: genomic additive matrix  
-##### W: environmental similarity matrix  
-##### fold.n: number of partitions in CV. The default is 5.  
-##### looEnv: for CV = '00' only; indicates if leave-one-out cross-validation should be applied specifically over environments, while genotypes are partitioned into folds defined by fold.n  
-##### covGE: if covariances for GxE will be constructed (Jarquín et al., 2014)  
+- `dados`: phenotypic data frame containing 'gid' (genotype) and 'env' (environment) columns.  
+- `G`: genomic additive relationship matrix.  
+- `W`: environmental similarity matrix.  
+- `CV`: cross-validation scheme identifier (e.g., '0', '1', '2', '00').  
+- `fold.n`: number of folds (partitions) for CV. Default is 5.  
+- `looEnv`: for CV = '00' only; indicates whether leave-one-out cross-validation is applied specifically to environments, while genotypes are partitioned separately into folds defined by fold.n.  
+- `covGE`: logical, whether to construct GxE covariance structures following Jarquín et al. (2014).  
 
+Performs cross-validation for multi-environment data.  
+Supports different CV schemes, including random folds, genotype-based, environment-based, and combined genotype-environment folds.  
+Fits mixed models with additive genomic and environmental covariance structures.  
+Returns accuracy metrics for predictions and GxE effects per fold.
 
 ##  Suggested References / Referências Sugeridas
 - Jarquín, D., Crossa, J., Lacaze, X., Du Cheyron, P., Daucourt, J., Lorgeou, J., Piraux, F., Guerreiro, L., Pérez, P., Calus, M., Burgueño, J., de los Campos, G., 2014. A reaction norm model for genomic selection using high-dimensional genomic and environmental data. Theoretical and Applied Genetics 127, 595–607. https://doi.org/10.1007/s00122-013-2243-1
