@@ -67,9 +67,9 @@ Performs cross-validation on single-environment data. For each fold, the functio
 - `looEnv`: for CV = '00' only; indicates whether leave-one-out cross-validation is applied specifically to environments, while genotypes are partitioned separately into folds defined by fold.n.  
 - `covGE`: logical, whether to construct GxE covariance structures following Jarquín et al. (2014).  
 
-Performs cross-validation for multi-environment data.  
-Supports different CV schemes, including random folds, genotype-based, environment-based, and combined genotype-environment folds.  
-Fits mixed models with additive genomic and environmental covariance structures.  
+Performs cross-validation for multi-environment data.
+Supports different CV schemes, including random folds, genotype-based, environment-based, and combined genotype-environment folds.
+Fits mixed models with additive genomic and environmental covariance structures.
 Returns accuracy metrics for predictions and GxE effects per fold.
 
 ##  Suggested References / Referências Sugeridas
