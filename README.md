@@ -33,7 +33,7 @@ Onde:
 - `g×e`: interação genótipo × ambiente
 
 ## Pipeline
-<img src="Pipeline.png" alt="Esquema geral da análise" width="700">
+<img src="Pipeline_Scheme.png" alt="Esquema geral da análise" width="700">
 
 ## Functions
 ### fold
