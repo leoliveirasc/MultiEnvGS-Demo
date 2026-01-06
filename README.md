@@ -1,6 +1,12 @@
 # MultiEnvGS-Demo
 This repository contains practical R scripts to demonstrate genomic selection models across multiple environments, with a focus on applications in plant breeding education and training.
 
+<br />
+
+* Hands-On: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/leoliveirasc/MultiEnvGS-Demo.git/main)
+
+<br />
+
 ## What's Included (English)
 1) Cross-validation functions: Scripts implementing different cross-validation schemes (CV0, CV00, CV1, and CV2) commonly used in genomic selection.
 2) Bilingual instructions: Scripts with usage instructions available in both Portuguese (GS_Demo_ptbr.R) and English (GS_Demo_eng.R), including modeling code that uses the sommer package to perform multi-environment genomic selection.
