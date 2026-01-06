@@ -1,0 +1,8 @@
+install.packages("sommer")
+install.packages('dplyr')
+install.packages("AGHmatrix")
+install.packages('pheatmap')
+install.packages("ggplot2")
+install.packages('nasapower')
+install.packages("devtools")
+devtools::install_github("allogamous/EnvRtype", dependencies=FALSE)
